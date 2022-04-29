@@ -1,16 +1,19 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@kiwanoswap/sdk",
   "license": "MIT",
-  "version": "2.4.3",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "version": "2.4.6",
+  "description": "An SDK for building applications on top of Kiwanoswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kiwanoproject/kiwanoswap-sdk.git"
+  },
   "keywords": [
-    "pancakeswap",
+    "kiwanoswap",
     "bsc"
   ],
   "module": "dist/sdk.esm.js",
@@ -54,5 +57,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Kiwanoproject/kiwanoswap-sdk/issues"
+  },
+  "homepage": "https://github.com/Kiwanoproject/kiwanoswap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
