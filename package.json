@@ -1,7 +1,7 @@
 {
   "name": "@kiwanoswap/sdk",
   "license": "MIT",
-  "version": "2.4.6",
+  "version": "2.6.7",
   "description": "An SDK for building applications on top of Kiwanoswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
