@@ -1,17 +1,14 @@
 {
   "name": "@kiwanoswap/sdk",
   "license": "MIT",
-  "version": "2.6.9",
-  "description": "An SDK for building applications on top of Kiwanoswap.",
+  "version": "2.7.1",
+  "description": "🛠 An SDK for building applications on top of Kiwanoswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Kiwanoproject/kiwanoswap-sdk.git"
-  },
+  "repository": "https://github.com/kiwanoswap/kiwanoswap-sdk.git",
   "keywords": [
     "kiwanoswap",
     "bsc"
@@ -48,7 +45,7 @@
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
     "babel-plugin-transform-jsbi-to-bigint": "^1.3.1",
-    "tsdx": "^0.12.3"
+    "tsdx": "^0.14.1"
   },
   "engines": {
     "node": ">=10"
@@ -57,13 +54,5 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  },
-  "bugs": {
-    "url": "https://github.com/Kiwanoproject/kiwanoswap-sdk/issues"
-  },
-  "homepage": "https://github.com/Kiwanoproject/kiwanoswap-sdk#readme",
-  "directories": {
-    "test": "test"
-  },
-  "author": ""
+  }
 }
